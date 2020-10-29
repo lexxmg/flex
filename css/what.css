@@ -1,14 +1,19 @@
 .what {
+  padding: 48px 0;
+
   background-color: #fff;
 }
 
 
 .what__row {
-
+  display: flex;
 }
 
 .what__image {
-
+  /* flex: 0 0 430px; */
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 430px;
 }
 
 .what__img {
@@ -16,11 +21,17 @@
 }
 
 .what__body {
+  /* flex: 1 1 auto; */
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
 
+
+  padding: 0 40px;
 }
 
 .what__title {
-
+  margin: 0 0 25px 0;
 }
 
 .what__text {
@@ -32,5 +43,9 @@
 }
 
 .what-text__item {
+  margin: 0 0 28px 0;
+}
 
+.what-text__item:last-child {
+  margin: 0;
 }
