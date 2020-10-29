@@ -17,7 +17,7 @@ body {
 
   background-color: #f9f9f9;       /* Визаулизация */
 
-  font-family: Аrial, sans-serif;  /* Типография */
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;  /* Типография */
   font-size: 16px;
   line-height: 1.429;
   color: black;
@@ -62,7 +62,7 @@ h1, h2, h3, p, figure {
 }
 
 .fixed-container {
-  max-width: 1024px;
+  max-width: 1180px;
   margin: 0 auto;
 }
 
