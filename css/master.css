@@ -1,6 +1,8 @@
 /*============================================================*/
 
 html {
+  height: 100%;
+
   box-sizing: border-box;
 }
 
@@ -12,7 +14,10 @@ html {
 
 body {
   width: 100%;
-  min-width: 320px;               /* box-model */
+  min-width: 320px;            /* box-model */
+
+  height: 100%;
+
   margin: 0;
 
   background-color: #f9f9f9;       /* Визаулизация */
@@ -62,7 +67,7 @@ h1, h2, h3, p, figure {
 }
 
 .fixed-container {
-  max-width: 1180px;
+  max-width: 1179px;
   margin: 0 auto;
 }
 
